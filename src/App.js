@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import HomeScreen from "./screens/HomeScreen/HomeScreen";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoginScreen from "./screens/LoginScreen/LoginScreen";
 import { auth } from "./firebase";
 import { useDispatch, useSelector } from "react-redux";

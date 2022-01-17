@@ -25,14 +25,14 @@ function Nav() {
         <img
           onClick={() => history.push("/")}
           className="nav__logo"
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+          src="https://res.cloudinary.com/dzhvw7vxn/image/upload/v1642418007/netflix-clone/Netflix-logo_kblhxq.png"
           alt=""
         />
 
         <img
           onClick={() => history.push("/profile")}
           className="nav__avatar"
-          src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
+          src="https://res.cloudinary.com/dzhvw7vxn/image/upload/v1642416275/netflix-clone/netflixprofile_x6mujb.png"
           alt=""
         />
       </div>
